@@ -36,7 +36,8 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 sudo nano /etc/nginx/nginx.conf
 ```
 
-> user www-data www-data;
+> > user www-data www-data;
+>
 > events 
 > >     worker_connections 4000;
 > >     multi_accept on;
