@@ -5,7 +5,7 @@ Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, My
 > <b> !! IMPORTANTE !!</b>
 > Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
 > 
-> [Melhorar Performance do Systema](sysctl.conf.md)
+> [Melhorar Performance do Sistema](sysctl.conf.md)
 >
 
 
