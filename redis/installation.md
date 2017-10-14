@@ -1,8 +1,7 @@
 ## 1 - Redis - Instruções
 
 
-
-Agora sim começamos a instalação do Redis
+### Instalação
 
 ```
 sudo apt-get udpate 
