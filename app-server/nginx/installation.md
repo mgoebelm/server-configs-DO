@@ -18,7 +18,7 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
 
 
-> Instalar UFW  ( Firewall )
+> **Instalar UFW  ( Firewall )**
 > 
 > ``` 
 > sudo apt-get install ufw
