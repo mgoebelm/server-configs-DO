@@ -13,8 +13,11 @@ sudo apt-get install nginx
 
 Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
+**********
 
 [Instalar PHP](../php7-1/installation.md)
+
+**********
 
 Configurar o Nginx para trabalhar em conjunto com o PHP
 
