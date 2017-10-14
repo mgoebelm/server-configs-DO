@@ -31,7 +31,7 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 > sudo ufw enable
 > ``` 
 
-[Mais detalhes sobre UFW](../UFW/installation.md)
+[Mais detalhes sobre UFW](../ufw/installation.md)
 
 **********
 

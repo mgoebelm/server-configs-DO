@@ -14,7 +14,7 @@ Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, My
 
 ### 3 - APP Server ( UFW + Nginx + PHP )
 
-- [UFW Firewall Instruções](app-server/UFW/installation.md)
+- [UFW Firewall Instruções](app-server/ufw/installation.md)
 
 - [Nginx Instruções](app-server/nginx/installation.md)
 
@@ -22,6 +22,8 @@ Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, My
 
 
 ### 4 - Mysql
+
+- [Mysql Instruções](app-server/mysql/installation.md)
 
 ### 5 - Redis
 
