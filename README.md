@@ -12,6 +12,14 @@ Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, My
 - [Load Balancer Settings](load-balancer/config.md)
 
 
+
+> <b> !! IMPORTANTE !!</b>
+> Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
+> 
+> [Melhorar Performance do Systema]()
+
+
+
 ### 3 - APP Server ( UFW + Nginx + PHP )
 
 - [UFW Firewall Instruções](app-server/ufw/installation.md)
@@ -26,5 +34,7 @@ Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, My
 - [Mysql Instruções](mysql/installation.md)
 
 ### 5 - Redis
+
+- [Redis Instruções](redis/installation.md)
 
 ### 6 - File Storage (NFS)
