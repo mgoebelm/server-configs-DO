@@ -16,10 +16,13 @@ sudo apt-get install php7.1-fpm php7.1 php7.1-mbstring php7.1-mcrypt php7.1-mysq
 ```
 sudo nano /etc/php/7.1/fpm/php.ini
 ```
+> Alterar para
+>
+> cgi.fix_pathinfo=0
 
-`cgi.fix_pathinfo=0`
+>
 
-> cgi.fix_pathinfo=1  This is an extremely insecure setting because it tells PHP to attempt to execute the closest file it can find if a PHP file does not match exactly. This basically would allow users to craft PHP requests in a way that would allow them to execute scripts that they shouldn't be allowed to execute.
+> !! Observação !! cgi.fix_pathinfo=1  is an extremely insecure setting because it tells PHP to attempt to execute the closest file it can find if a PHP file does not match exactly. This basically would allow users to craft PHP requests in a way that would allow them to execute scripts that they shouldn't be allowed to execute.
 
 
 
