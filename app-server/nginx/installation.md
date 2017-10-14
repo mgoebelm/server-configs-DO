@@ -1,5 +1,7 @@
 ## 1 - Nginx - Instruções
 
+[Mais detalhes sobre Nginx](https://www.digitalocean.com/community/tutorials/como-instalar-o-nginx-no-ubuntu-16-04-pt)
+
 
 ```
 sudo apt-get update
@@ -81,5 +83,9 @@ server {
 }
 </pre>
 
+
+```
+sudo service nginx restart
+```
 
 [Voltar à Página Inicial](../../README.md)
