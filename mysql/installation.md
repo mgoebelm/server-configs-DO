@@ -21,7 +21,8 @@ Configurações gerais do Mysql
 sudo cat /etc/mysql/my.cnf
 ```
 
-> preferencialmente ip da rede privada
+> \#preferencialmente ip da rede privada
+> 
 > bind-address            = xxx.xxx.xxx.xxx
 
 
