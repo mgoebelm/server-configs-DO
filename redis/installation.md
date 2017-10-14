@@ -25,4 +25,6 @@ sudo nano /etc/redis/redis.conf
 > port 6379
 > 
 > tcp-backlog 65535
-> 
+
+
+[Voltar à Página Inicial](../README.md)

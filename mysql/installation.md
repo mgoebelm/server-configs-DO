@@ -28,4 +28,4 @@ sudo nano /etc/mysql/my.cnf
 
 
 
-
+[Voltar à Página Inicial](../README.md)
