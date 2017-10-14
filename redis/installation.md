@@ -4,7 +4,7 @@
 ### Instalação
 
 ```
-sudo apt-get udpate 
+sudo apt-get update 
 sudo apt-get install redis-server
 ```
 
