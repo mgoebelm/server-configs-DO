@@ -24,18 +24,18 @@ sudo chown nobody:nogroup /var/nfs/fshared
 sudo nano /etc/exports
 ```
 
-Adicionar o ip de cada servidor que terá permissão para se conectar à pasta compartilhada
-
-```
-/var/nfs/fshared xxx.xxx.xxx.xxx(rw,sync,insecure_locks,insecure,no_root_squash) yyy.yyy.yyy.yyy(rw,sync,insecure_locks,insecure,no_root_squash) 
-```
+> \# Adicionar o ip de cada servidor que terá permissão para se conectar à pasta compartilhada
+>
+>```
+>/var/nfs/fshared xxx.xxx.xxx.xxx(rw,sync,insecure_locks,insecure,no_root_squash) yyy.yyy.yyy.yyy(rw,sync,insecure_locks,insecure,no_root_squash) 
+>```
 
 ``` 
 sudo service nfs-kernel-server restart
 ```
 
 
-> UFW
+> UFW - Liberar Firewall para cada servidor para a porta do NFS (2049)
 >
 > ```
 > sudo ufw allow from xxx.xxx.xxx.xxx to any port nfs
@@ -64,26 +64,26 @@ sudo mkdir -p /var/client/fshared
 sudo mount xxx.xxx.xxx.xxx:/var/nfs/fshared /var/client/fshared
 ```
 
-Verificar se foi montada com sucesso
+- Verificar se foi montada com sucesso
 
 ``` 
 df -h
 ```
 
-Agora vamos desmontar a unidade
+- Desmontar a unidade
 
 ``` 
 sudo umount /var/client/fshared
 ```
 
-Configurar para montagem automática ao inicializar o sistema
+- Configurar para montagem automática ao inicializar o sistema
 
 ``` 
 sudo nano /etc/fstab
 ``` 
 
-Adicionar ao final do arquivo
-
-``` 
-xxx.xxx.xxx.xxx:/var/nfs/fshared   /var/client/fshared   nfs4    _netdev,auto  0  0
-```
+> \# Adicionar ao final do arquivo
+>
+>``` 
+>xxx.xxx.xxx.xxx:/var/nfs/fshared   /var/client/fshared   nfs4    _netdev,auto  0  0
+>```
