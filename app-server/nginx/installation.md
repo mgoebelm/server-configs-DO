@@ -13,9 +13,9 @@ sudo apt-get install nginx
 
 Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
-<small>Uhuuuuuuulll  o/</small>
+<em>Uhuuuuuuulll  o/</em>
 
-.
+
 
 
 > Instalar UFW  ( Firewall )
@@ -50,6 +50,8 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
 [Instalar PHP](../php7-1/installation.md)
 
+<span style="font-size:10px">tudo pronto? booraaaa!!!</span>
+
 **********
 
 Configurar o Nginx para trabalhar em conjunto com o PHP
@@ -59,7 +61,7 @@ sudo nano /etc/nginx/sites-available/default
 ```
 
 
-<pre>
+```nginx
 server {
     listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
@@ -88,7 +90,7 @@ server {
         include fastcgi_params;
     }
 }
-</pre>
+```
 
 
 [Voltar à Página Inicial](../../README.md)
