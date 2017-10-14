@@ -87,3 +87,21 @@ sudo nano /etc/fstab
 >``` 
 >xxx.xxx.xxx.xxx:/var/nfs/fshared   /var/client/fshared   nfs4    _netdev,auto  0  0
 >```
+
+
+- Reiniciar o sistema
+
+``` 
+sudo reboot now
+``` 
+
+- Verificar se a pasta compartilhada foi montada com sucesso
+
+``` 
+df -h
+```
+
+
+***
+
+[Voltar à Página Inicial](../README.md)
