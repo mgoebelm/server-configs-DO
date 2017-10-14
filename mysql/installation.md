@@ -18,7 +18,7 @@ sudo mysql_secure_installation
 Configurações gerais do Mysql
 
 ```
-sudo cat /etc/mysql/my.cnf
+sudo nano /etc/mysql/my.cnf
 ```
 
 > \#preferencialmente ip da rede privada
