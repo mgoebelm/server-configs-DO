@@ -3,8 +3,8 @@
 #### DNS Records
 ```
 A - fatalmodel.com - xxx.xxx.xxx.xxx (Load Balancer IP)
-CNAME - www - fatalmodel.com - Automatic TTL
-CNAME - fm-static-1 - fatalmodel.com
+CNAME - www - ftmdl.com - Automatic TTL
+CNAME - fm-static-1 - ftmdl.com
 ```
 
 #### Crypto
@@ -15,11 +15,11 @@ Automatic HTTPS Rewrites
 
 #### Page Rules
 ```
-http://fatalmodel.com/* 
+http://ftmdl.com/* 
 - Always Use HTTPS
 ```
 ```
-fm-static-1.fatalmodel.com/* 
+fm-static-1.ftmdl.com/* 
 - Browser Cache TTL: a year, 
 - Always Online: On, 
 - Cache Level: Cache Everything, 
