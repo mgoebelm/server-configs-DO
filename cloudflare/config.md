@@ -1,4 +1,4 @@
-## 1 - Cloudflare - Settings
+## 1 - Cloudflare - Configurações Básicas
 
 #### DNS Records
 ```
