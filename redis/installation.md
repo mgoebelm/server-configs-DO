@@ -25,6 +25,8 @@ sudo nano /etc/redis/redis.conf
 > port 6379
 > 
 > tcp-backlog 65535
+>
+> requirepass my-ultra-s3cr3t-pa$$word-with-many#many-characters-and-variables
 
 
 ***
