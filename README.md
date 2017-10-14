@@ -1,5 +1,5 @@
 ## Configurações de Servidores - Digital Ocean
-Configurações de Servidores : Cloudflare, Load Balander, Nginx + PHP, Mysql,  Redis, File Storage (NFS)
+Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, Mysql,  Redis, File Storage (NFS)
 
 ### 1 - Cloudflare
 
@@ -12,7 +12,9 @@ Configurações de Servidores : Cloudflare, Load Balander, Nginx + PHP, Mysql,  
 - [Load Balancer Settings](load-balancer/config.md)
 
 
-### 3 - APP Server ( Nginx + PHP )
+### 3 - APP Server ( UFW + Nginx + PHP )
+
+- [UFW Firewall Instruções](app-server/UFW/installation.md)
 
 - [Nginx Instruções](app-server/nginx/installation.md)
 
