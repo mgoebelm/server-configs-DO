@@ -23,15 +23,15 @@ sudo nano /etc/nginx/sites-available/default
 ```
 
 
-```
+<pre>
 server {
     listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
 
-    root **/var/www/folder/public**;
+    root <strong>/var/www/folder/public</strong>;
     index index.php index.html index.htm;
 
-    server_name **server_domain_name_or_IP**;
+    server_name <span style="color:red">server_domain_name_or_IP</span>;
 
     location / {
         try_files $uri $uri/ =404;
@@ -52,7 +52,7 @@ server {
         include fastcgi_params;
     }
 }
-```
+</pre>
 
 
 [Voltar à Página Inicial](../../README.md)
