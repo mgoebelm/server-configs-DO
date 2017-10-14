@@ -36,6 +36,8 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 sudo nano /etc/nginx/nginx.conf
 ```
 
+!!! Preservar os outros parâmetros no arquivo !!!
+
 ```
  user www-data www-data;
 
@@ -47,6 +49,7 @@ sudo nano /etc/nginx/nginx.conf
      worker_connections 4000;
      multi_accept on;
      use epoll;
+ }
  
  http {
 
@@ -56,7 +59,7 @@ sudo nano /etc/nginx/nginx.conf
      open_file_cache_valid 30s;
      open_file_cache_min_uses 2;
      open_file_cache_errors on;
-
+     
      #fastcgi params
      fastcgi_buffers 16 16k;
      fastcgi_buffer_size 32k;
@@ -70,7 +73,8 @@ sudo nano /etc/nginx/nginx.conf
      tcp_nodelay on;
      keepalive_timeout 15;
      types_hash_max_size 2048;
-     server_tokens off;
+     server_tokens off;     
+ }
 ```
 
 .
