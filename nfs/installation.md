@@ -61,7 +61,7 @@ sudo service nfs-kernel-server restart
 
 ## On the Client
 
-- Instalação
+- Instalar
 
 ```
 sudo apt-get update
