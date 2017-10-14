@@ -3,6 +3,17 @@
 [Mais detalhes sobre Nginx](https://www.digitalocean.com/community/tutorials/como-instalar-o-nginx-no-ubuntu-16-04-pt)
 
 
+>
+> <b> !! IMPORTANTE !!</b>
+> Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
+> 
+> [Melhorar Performance do Sistema](../../sysctl.conf.md)
+>
+
+
+- Instalar
+
+
 ```
 sudo apt-get update
 ```
@@ -44,7 +55,7 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
 
 
-Configurar o Nginx para trabalhar em conjunto com o PHP
+- Configurar o Nginx para trabalhar em conjunto com o PHP
 
 
 ```

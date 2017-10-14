@@ -1,7 +1,14 @@
 ## 1 - Redis - Instruções
 
+>
+> <b> !! IMPORTANTE !!</b>
+> Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
+> 
+> [Melhorar Performance do Sistema](../sysctl.conf.md)
+>
 
-### Instalação
+
+- Instalar
 
 ```
 sudo apt-get update 
@@ -12,7 +19,7 @@ sudo apt-get install redis-server
 
 ****
 
-Alguns parâmetros a serem observados, mas vale a pena a leitura completa do arquivo
+- Alguns parâmetros a serem observados, mas vale a pena a leitura completa do arquivo
 
 ``` 
 sudo nano /etc/redis/redis.conf

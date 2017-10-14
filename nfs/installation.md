@@ -2,9 +2,18 @@
 
 [Mais detalhes sobre NFS](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-16-04)
 
+
+>
+> <b> !! IMPORTANTE !!</b>
+> Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
+> 
+> [Melhorar Performance do Sistema](../sysctl.conf.md)
+>
+
+
 ## On the Host
 
-- Instalação
+- Instalar
 
 ```
 sudo apt-get update
