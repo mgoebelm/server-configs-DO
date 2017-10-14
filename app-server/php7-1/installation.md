@@ -35,7 +35,11 @@ sudo nano /etc/php/7.1/fpm/pool.d/www.conf
 [Completo www.conf](complete-pool-www.conf.md)
 
 
+- Reiniciar serviço para atualizar as configurações
 
+``` 
+sudo service php7.1-fpm restart
+```
 
 
 <b>!!! Configuração PHP Completa !!!</b>
