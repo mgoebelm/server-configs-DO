@@ -25,3 +25,5 @@ fm-static-1.ftmdl.com/*
 - Cache Level: Cache Everything, 
 - Edge Cache TTL: a month
 ```
+
+[Voltar à Página Inicial](../README.md)
