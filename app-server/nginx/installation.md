@@ -16,6 +16,7 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 <small><em>Uhuuuuuuulll  o/</em></small>
 
 
+.
 
 
 > **Instalar UFW  ( Firewall )**
