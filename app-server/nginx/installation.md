@@ -36,36 +36,42 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 sudo nano /etc/nginx/nginx.conf
 ```
 
-> > user www-data www-data;
->
-> events 
-> >     worker_connections 4000;
-> >     multi_accept on;
-> >     use epoll;
-> 
-> http 
->
-> >     #cache informations about FDs, frequently accessed files
-> >     #can boost performance, but you need to test those values
-> >     open_file_cache max=200000 inactive=20s;
-> >     open_file_cache_valid 30s;
-> >     open_file_cache_min_uses 2;
-> >     open_file_cache_errors on;
-> >
-> >     #fastcgi params
-> >     fastcgi_buffers 16 16k;
-> >     fastcgi_buffer_size 32k;
-> >     proxy_buffer_size   128k;
-> >     proxy_buffers   4 256k;
-> >     proxy_busy_buffers_size   256k;
-> >      
-> >     access_log off;
-> >     sendfile on;
-> >     tcp_nopush on;
-> >     tcp_nodelay on;
-> >     keepalive_timeout 15;
-> >     types_hash_max_size 2048;
-> >     server_tokens off;
+```
+ user www-data www-data;
+
+ worker_processes auto;
+ 
+ pid /run/nginx.pid;
+
+ events {
+     worker_connections 4000;
+     multi_accept on;
+     use epoll;
+ 
+ http {
+
+     #cache informations about FDs, frequently accessed files
+     #can boost performance, but you need to test those values
+     open_file_cache max=200000 inactive=20s;
+     open_file_cache_valid 30s;
+     open_file_cache_min_uses 2;
+     open_file_cache_errors on;
+
+     #fastcgi params
+     fastcgi_buffers 16 16k;
+     fastcgi_buffer_size 32k;
+     proxy_buffer_size   128k;
+     proxy_buffers   4 256k;
+     proxy_busy_buffers_size   256k;
+      
+     access_log off;
+     sendfile on;
+     tcp_nopush on;
+     tcp_nodelay on;
+     keepalive_timeout 15;
+     types_hash_max_size 2048;
+     server_tokens off;
+```
 
 .
 
