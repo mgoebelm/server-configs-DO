@@ -8,8 +8,11 @@ sudo apt-get install mysql-server
 sudo mysql_secure_installation
 ```
 
+
 > Recomendado instalar UFW ( Firewall ) e liberar somente o Mysql
+>
 > [Mais detalhes sobre UFW](../UFW/installation.md)
+
 
 
 Configurações gerais do Mysql
