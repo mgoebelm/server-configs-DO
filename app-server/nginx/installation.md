@@ -13,6 +13,11 @@ sudo apt-get install nginx
 
 Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
+<small>Uhuuuuuuulll  o/</small>
+
+.
+
+
 > Instalar UFW  ( Firewall )
 > 
 > ``` 
