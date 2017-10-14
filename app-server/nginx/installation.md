@@ -29,7 +29,7 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 > sudo ufw enable
 > ``` 
 
-[Mais detalhes sobre UFW](https://www.digitalocean.com/community/tutorials/how-to-setup-a-firewall-with-ufw-on-an-ubuntu-and-debian-cloud-server)
+[Mais detalhes sobre UFW](../UFW/installation.md)
 
 **********
 
