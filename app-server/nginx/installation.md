@@ -50,7 +50,7 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
 [Instalar PHP](../php7-1/installation.md)
 
-<span style="font-size:10px">tudo pronto? booraaaa!!!</span>
+<small>tudo pronto? booraaaa!!!</small>
 
 **********
 
@@ -61,7 +61,7 @@ sudo nano /etc/nginx/sites-available/default
 ```
 
 
-```nginx
+<pre>
 server {
     listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
@@ -90,7 +90,7 @@ server {
         include fastcgi_params;
     }
 }
-```
+</pre>
 
 
 [Voltar à Página Inicial](../../README.md)
