@@ -1,13 +1,14 @@
 ## Configurações de Servidores - Digital Ocean
 Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, Mysql,  Redis, File Storage (Network File System)
 
+***
 >
 > <b> !! IMPORTANTE !!</b>
 > Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
 > 
 > [Melhorar Performance do Sistema](sysctl.conf.md)
 >
-
+***
 
 
 ### 1 - Cloudflare

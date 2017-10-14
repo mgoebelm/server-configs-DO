@@ -3,12 +3,14 @@
 [Mais detalhes sobre Mysql](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-16-04)
 
 
+***
 >
 > <b> !! IMPORTANTE !!</b>
 > Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
 > 
 > [Melhorar Performance do Sistema](../sysctl.conf.md)
 >
+***
 
 
 - Instalar e Configurar

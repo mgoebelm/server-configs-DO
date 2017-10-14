@@ -3,12 +3,14 @@
 [Mais detalhes sobre Nginx](https://www.digitalocean.com/community/tutorials/como-instalar-o-nginx-no-ubuntu-16-04-pt)
 
 
+***
 >
 > <b> !! IMPORTANTE !!</b>
 > Todos servidores devem receber esta alteração para melhorar a performance geral do sistema
 > 
 > [Melhorar Performance do Sistema](../../sysctl.conf.md)
 >
+***
 
 
 - Instalar
