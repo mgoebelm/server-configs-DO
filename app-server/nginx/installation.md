@@ -31,7 +31,7 @@ server {
     root <strong>/var/www/folder/public</strong>;
     index index.php index.html index.htm;
 
-    server_name <span style="color:red">server_domain_name_or_IP</span>;
+    server_name <strong>server_domain_name_or_IP</strong>;
 
     location / {
         try_files $uri $uri/ =404;
@@ -46,7 +46,7 @@ server {
     location ~ \.php$ {
         try_files $uri =404;
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
-        fastcgi_pass 127.0.0.1;
+        fastcgi_pass <strong>127.0.0.1</strong>;
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include fastcgi_params;
