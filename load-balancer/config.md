@@ -31,3 +31,5 @@ Cookie TTL - 300s (5 minutes)
 ```
 No redirect
 ```
+
+[Voltar à Página Inicial](../README.md)
