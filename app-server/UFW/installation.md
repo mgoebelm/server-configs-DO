@@ -28,3 +28,6 @@ sudo ufw allow ssh
 sudo ufw status
 sudo ufw enable
 ``` 
+
+
+[Voltar à Página Inicial](../../README.md)
