@@ -81,3 +81,7 @@ net.ipv4.tcp_tw_reuse = 1
 
 vm.overcommit_memory = 1
 ```
+
+***
+
+[Voltar à Página Inicial](README.md)

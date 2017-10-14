@@ -38,4 +38,7 @@ sudo nano /etc/php/7.1/fpm/pool.d/www.conf
 
 <b>!!! Configuração PHP Completa !!!</b>
 
+
+***
+
 [Voltar à Página Inicial](../../README.md)

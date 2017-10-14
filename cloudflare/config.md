@@ -26,4 +26,7 @@ fm-static-1.ftmdl.com/*
 - Edge Cache TTL: a month
 ```
 
+
+***
+
 [Voltar à Página Inicial](../README.md)

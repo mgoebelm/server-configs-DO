@@ -27,4 +27,6 @@ sudo nano /etc/redis/redis.conf
 > tcp-backlog 65535
 
 
+***
+
 [Voltar à Página Inicial](../README.md)
