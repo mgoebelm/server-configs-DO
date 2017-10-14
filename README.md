@@ -1,5 +1,5 @@
 ## server-configs-DO
-Server Configurations : CloudFlare, Load Balander, Nginx + PHP, Mysql, File Storage (NFS), Redis
+Server Configurations : Cloudflare, Load Balander, Nginx + PHP, Mysql, File Storage (NFS), Redis
 
 
 ### 1 - Load Balancer
