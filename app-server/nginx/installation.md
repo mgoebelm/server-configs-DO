@@ -6,14 +6,14 @@ sudo apt-get update
 ```
 
 
-
 ```
 sudo apt-get install nginx
 ```
 
+
 Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
-<em>Uhuuuuuuulll  o/</em>
+<small><em>Uhuuuuuuulll  o/</em></small>
 
 
 
@@ -48,13 +48,17 @@ Acessar o endereço do site, deverá aparecer "Welcome to Nginx"
 
 **********
 
-[Instalar PHP](../php7-1/installation.md)
+## [Instalar PHP](../php7-1/installation.md)
 
 <small>tudo pronto? booraaaa!!!</small>
 
 **********
 
+
+
+
 Configurar o Nginx para trabalhar em conjunto com o PHP
+
 
 ```
 sudo nano /etc/nginx/sites-available/default
