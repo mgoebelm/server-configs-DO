@@ -26,8 +26,15 @@ sudo nano /etc/mysql/my.cnf
 > bind-address            = xxx.xxx.xxx.xxx
 
 
+.
 
-##### Melhorar Performance do Sistema (linux)
+#### Melhorar Performance do Sistema (linux)
+
+``` 
+sudo nano /etc/sysctl.conf
+```
+
+Adicionar ao final do arquivo
 
 ```
 ### IMPROVE SYSTEM MEMORY MANAGEMENT ###
