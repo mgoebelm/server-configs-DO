@@ -73,6 +73,7 @@ df -h
 - Desmontar a unidade
 
 ``` 
+cd ~
 sudo umount /var/client/fshared
 ```
 
