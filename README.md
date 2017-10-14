@@ -23,7 +23,7 @@ Configurações de Servidores : Cloudflare, Load Balander, UFW + Nginx + PHP, My
 
 ### 4 - Mysql
 
-- [Mysql Instruções](app-server/mysql/installation.md)
+- [Mysql Instruções](mysql/installation.md)
 
 ### 5 - Redis
 
