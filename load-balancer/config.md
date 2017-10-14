@@ -1,4 +1,4 @@
-##1 - Load Balancer - Settings - Configs
+## 1 - Load Balancer - Settings - Configs
 
 ### Tag
 ```
