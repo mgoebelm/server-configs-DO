@@ -117,7 +117,7 @@ server {
     listen [::]:80 default_server ipv6only=on;
 
     root <strong>/var/www/folder/public</strong>;
-    index index.php index.html index.htm;
+    index <strong>index.php</strong> index.html index.htm;
 
     server_name <strong>server_domain_name_or_IP</strong>;
 
@@ -134,7 +134,7 @@ server {
     location ~ \.php$ {
         try_files $uri =404;
         fastcgi_split_path_info ^(.+\.php)(/.+)$;
-        fastcgi_pass <strong>127.0.0.1</strong>;
+        fastcgi_pass <strong>127.0.0.1:9000</strong>;
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include fastcgi_params;
