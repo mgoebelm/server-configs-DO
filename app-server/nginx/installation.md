@@ -115,12 +115,13 @@ sudo nano /etc/nginx/sites-available/default
 server {
     listen 80 default_server;
     listen [::]:80 default_server ipv6only=on;
-
+    
     root <strong>/var/www/folder/public</strong>;
     index <strong>index.php</strong> index.html index.htm;
-
+   
     server_name <strong>server_domain_name_or_IP</strong>;
-
+    sendfile off;
+    
     location / {
         try_files $uri $uri/ =404;
     }
